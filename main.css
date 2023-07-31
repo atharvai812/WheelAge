@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-shadow: 1px 1px 12px rgb(20, 94, 231);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-title {
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  background: url("/Assets/BG_IP\ 04.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #f0ebb5;
+  height: calc(100vh - 150px);
+  /* Adjust the value to leave space for navbar and footer */
+}
+
+.slider-container {
+  width: 80%;
+  /* Adjust the size of the window-like structure */
+  height: 92%;
+  /* Adjust the size of the window-like structure */
+  overflow: hidden;
+  position: relative;
+  border: 5px solid #f5f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: slide 5s infinite;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider a {
+  width: 70%;
+  height: 10%;
+  color: #fff;
+  margin-top: 103px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding-top: px;
+  font-size: 50px;
+  text-decoration: none;
+  background: #22212108;
+  text-shadow: 1px 1px 12px rgb(20, 94, 231);
+  backdrop-filter: blur(1px);
+}
+
+.slider a:hover {
+  color: #fff;
+  /* background: #00000008; */
+  background: #000000ce;
+  padding: 20px;
+  text-shadow: 1px 1px 12px rgb(251, 16, 16);
+  backdrop-filter: blur(1px);
+  transform: scale(1.1);
+  border-radius: 40px;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 1;
+  }
+
+  53% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(255, 254, 254, 0.921);
+}
+
+.footer p {
+  font-size: 15px;
+  color: #faf9f9;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: #f0ebb5;
+  text-shadow: #d81515;
+
+}
