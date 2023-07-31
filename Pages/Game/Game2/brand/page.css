@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    background:linear-gradient(45deg,#f3bd0df7 , #0d4f86ed);
+
+}
+body::-webkit-scrollbar{
+    display: none;
+  }section{
+    background:linear-gradient(45deg,#f3bd0df7 , #0d4f86ed);
+  }
+
+
+.Template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(45deg,#f3bd0df7 , #0d4f86ed);
+}
+
+.Template-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 95vw;
+    border: 5px solid #33333300;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color:transparent;
+}
+
+.hero-frame {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.hero-image {
+    background-size: cover;
+    height: 600px;
+    width: 900px;
+}
+
+.hero-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.brand-frame {
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    max-width: 800px;
+    height: 77.5vh;
+}
+
+.brand-name {
+    font-size: 45px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-weight: bold;
+    color: honeydew;
+}
+
+.brand-info {
+    font-style: oblique;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #0d4f86ed;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #f3bd0df7;
+}
